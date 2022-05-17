@@ -52,6 +52,10 @@
   <h5>Una vez instalado, inciamos el servicio y habilitamos el servicio de NGINX</h5>
   <p> systemctl start nginx  </p>
   <p> systemctl enable nginx</p>
+  <h5>Por ultimo creamos y configuramos el archivo de nuestro loabalancer en NGINX</h5>
+  <p> vim /etc/nginx/conf.d/load-balancer.conf</p>
+    
+  
     
     
     
