@@ -49,6 +49,9 @@
   <h5> Instalamos los paquetes de NGINX e instalamos el repositorio de EPEL</h5>
   <p> yum install epel-release </p>
   <p> yum install nginx</p>
+  <h5>Una vez instalado, inciamos el servicio y habilitamos el servicio de NGINX</h5>
+  <p> systemctl start nginx  </p>
+  <p> systemctl enable nginx</p>
     
     
     
