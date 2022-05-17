@@ -44,5 +44,11 @@
   
   ----------------------------------------------------------------------------------------------------------------------
   <h2> Para la maquina de loadbalancer  realizamos las siguientes configuraciones <h2>
+  <h5> Actualizamos los repositorios de la maquina </h5>
+  <p> yum update </p>
+  <h5> Instalamos los paquetes de NGINX e instalamos el repositorio de EPEL</h5>
+  <p> yum install epel-release </p>
+  <p> yum install nginx</p>
+    
     
     
